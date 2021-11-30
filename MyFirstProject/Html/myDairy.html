@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Dairy</title>
-    <script type="text/javascript" src="C:\Users\tnave\github\MyFirstWebPage\MyFirstProject\JavaScript\script.js">
 
-    </script>
-    <style>
+<head>
+  <meta charset="utf-8">
+  <title>My Dairy</title>
+  <script type="text/javascript" src="C:\Users\tnave\github\MyFirstWebPage\MyFirstProject\JavaScript\script.js">
+
+  </script>
+  <style>
     body {
       background-color: #FFFFF0;
     }
-    #header{
+
+    #header {
       text-align: center;
       background-color: yellow;
     }
-    </style>
-  </head>
-  <body>
-<h1 id ="header">Dairy</h1>
-<form  action="" method="post">
+  </style>
+</head>
 
-<table id="mainTable">
-  <tr>
-    <label for="newEntry">New Entry:</label>
-  </tr>
-  <tr>
-    <textarea name="dairyEntry" id="dairyArea" rows="6" cols="80"></textarea>
-  </tr>
-  <tr>
-    <td><button type="submit" name="submit" onclick="getValueFromTextArea();">submit</button> </td>
-    <td></td>
-    <td> <button type="button" name="clear" onclick="clickClear();">Clear</button> </td>
-  </tr>
-</table>
-</form>
-  </body>
+<body>
+  <h1 id="header">Dairy</h1>
+
+    <table id="mainTable">
+      <tbody>
+        <tr>
+          <label for="newEntry">New Entry:</label>
+        </tr>
+        <tr>
+          <textarea name="dairyEntry" id="dairyArea" rows="6" cols="80"></textarea>
+        </tr>
+        <tr>
+          <td><button type="submit" name="submit" onclick="getValueFromTextArea();">submit</button> </td>
+          <td></td>
+          <td> <button type="button" name="clear" onclick="clickClear();">Clear</button> </td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+
 </html>
