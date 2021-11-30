@@ -3,24 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>My Dairy</title>
+    <script type="text/javascript" src="C:\Users\tnave\github\MyFirstWebPage\MyFirstProject\JavaScript\script.js">
+
+    </script>
+    <style>
+    body {
+      background-color: #FFFFF0;
+    }
+    #header{
+      text-align: center;
+      background-color: yellow;
+    }
+    </style>
   </head>
   <body>
-    <table>
-      <thead>
-        <th>27/11/2021</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Today was almost an average day. I decide to learn full stack web development. Although I know HTMl, CSS and a little bit of javascript, I decided to refresh my knowedege and learn from the beginning.</td>
-        </tr>
-      </tbody>
-    </table>
-    <ul>
+<h1 id ="header">Dairy</h1>
+<form  action="" method="post">
 
-      <li><a href="/MyFirstWebPage/index.html">HomePage</a></li>
-
-
-
-    </ul>
+<table id="mainTable">
+  <tr>
+    <label for="newEntry">New Entry:</label>
+  </tr>
+  <tr>
+    <textarea name="dairyEntry" id="dairyArea" rows="6" cols="80"></textarea>
+  </tr>
+  <tr>
+    <td><button type="submit" name="submit" onclick="getValueFromTextArea();">submit</button> </td>
+    <td></td>
+    <td> <button type="button" name="clear" onclick="clickClear();">Clear</button> </td>
+  </tr>
+</table>
+</form>
   </body>
 </html>
