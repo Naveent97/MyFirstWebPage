@@ -23,12 +23,12 @@
 
     <table id="mainTable">
         <tr id="firstRow">
-          <label for="newEntry">New Entry:</label>
+          <label for="newEntry" id='newLabel'>New Entry:</label>
         </tr>
-        <tr>
+        <tr id="secondRow">
           <textarea name="dairyEntry" id="dairyArea" rows="6" cols="80"></textarea>
         </tr>
-        <tr>
+        <tr id="thirdRow">
           <td><button type="submit" name="submit" onclick="getValueFromTextArea();">submit</button> </td>
           <td></td>
           <td> <button type="button" name="clear" onclick="clickClear();">Clear</button> </td>
